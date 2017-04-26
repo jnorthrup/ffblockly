@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Blockly Demo: Resizable Blockly (Part 2)</title>
+    <script src="blockly_compressed.js"></script>
+    <script src="blocks_compressed.js"></script>
+    <!--<script src="demos/code/msg/en.js"></script>-->
+    <script src="msg/js/en.js"></script>
+</head>
+<body>
+<div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
+
+<xml id="toolbox" style="display: none">
+    <category id="ffplugins" name="ffplugins">
+        <!--<block type="abuffer"></block>-->
+    </category>
+    <!--<block type="controls_whileUntil"></block>-->
+</xml>
+
+<script>
+    /**
+     * @return {string}
+     */
+    function Get(yourUrl) {
+        const Httpreq = new XMLHttpRequest(); // a new request
+        Httpreq.open("GET", yourUrl, false);
+        Httpreq.send(null);
+        return Httpreq.responseText;
+    }
+    const ff = JSON.parse(Get("x.json"));
+
+    const ff2 = ff["model"];
+    const used = [];
+    const pluginsParent = document.getElementById("ffplugins");
+
+    ff2.map(function (k) {
+        let k3 = k["type"];
+        let prefix = k3.slice(0, 1);
+        if (!used[prefix]) {
+            const element = document.createElement("category");
+            element.setAttribute("name", prefix);
+            used[prefix] = element;
+            pluginsParent.appendChild(element)
+        }
+        let element2 = document.createElement("block");
+        element2.setAttribute("type", k3);
+        used[prefix].appendChild(element2);
+    });
+
+
+    Blockly.defineBlocksWithJsonArray(ff2);
+    const workspace = Blockly.inject('blocklyDiv',
+        {toolbox: document.getElementById('toolbox')});
+</script>
+
+</body>
+</html>
