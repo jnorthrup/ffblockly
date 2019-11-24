@@ -31,9 +31,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -81,9 +78,6 @@
           "check": "String",
           "text": "\"red|green|blue|yellow|orange|lime|pink|magenta|brown\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -102,9 +96,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -151,9 +142,6 @@
           "tooltip": "accept all channel counts",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -291,9 +279,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -678,9 +663,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -802,9 +784,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.3"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -824,9 +803,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -993,9 +969,6 @@
           "check": "String",
           "text": "\"900x256\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -1040,9 +1013,6 @@
           "check": "String",
           "text": "\"0.5\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -1121,9 +1091,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -1157,9 +1124,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -1239,9 +1203,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -1518,9 +1479,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -1664,9 +1622,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.75"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -1727,9 +1682,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -1763,9 +1715,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -1903,9 +1852,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2064,9 +2010,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2097,9 +2040,6 @@
           "check": "String",
           "type": "field_number",
           "value": "2"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2179,9 +2119,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2304,9 +2241,6 @@
           "check": "String",
           "text": "0xffffffffffffffff",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2356,9 +2290,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2408,9 +2339,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2450,9 +2378,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2494,9 +2419,6 @@
           "check": "String",
           "type": "field_number",
           "value": "2"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2609,9 +2531,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2668,9 +2587,6 @@
           "check": "String",
           "type": "field_number",
           "value": "2"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2751,9 +2667,6 @@
           "check": "String",
           "text": "0",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -2817,9 +2730,6 @@
           "check": "String",
           "text": "\"red|green|blue|yellow|orange|lime|pink|magenta|brown\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -3020,9 +2930,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1024"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -3101,9 +3008,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1024"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -3143,9 +3047,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -3201,9 +3102,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -3285,9 +3183,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -3375,9 +3270,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -3531,9 +3423,6 @@
           "check": "String",
           "type": "field_number",
           "value": "2"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -3553,9 +3442,6 @@
           "check": "String",
           "text": "2",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4052,9 +3938,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4109,9 +3992,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4152,9 +4032,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4199,9 +4076,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4221,9 +4095,6 @@
           "check": "String",
           "text": "\"PTS\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4254,9 +4125,6 @@
           "check": "String",
           "type": "field_number",
           "value": "44100"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4283,9 +4151,6 @@
           "check": "String",
           "text": "\"intb\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4339,9 +4204,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4363,9 +4225,6 @@
           "check": "String",
           "type": "field_number",
           "value": "2"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4431,9 +4290,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4470,9 +4326,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4501,9 +4354,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4586,9 +4436,6 @@
           "check": "String",
           "text": "7",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4610,9 +4457,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4703,9 +4547,6 @@
           "check": "String",
           "type": "field_number",
           "value": "I64_MAX"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4884,9 +4725,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4926,9 +4764,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -4955,9 +4790,6 @@
           "check": "String",
           "text": "\"tcp:\/\/*:5555\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5086,9 +4918,6 @@
           "check": "String",
           "text": "0xffffffffffffffff",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5211,9 +5040,6 @@
           "check": "String",
           "text": "0xffffffffffffffff",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5354,9 +5180,6 @@
           "check": "String",
           "text": "0xffffffffffffffff",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5378,9 +5201,6 @@
           "check": "String",
           "type": "field_number",
           "value": "16"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5415,9 +5235,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5444,9 +5261,6 @@
           "check": "String",
           "text": "0xffffffffffffffff",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5474,9 +5288,6 @@
           "tooltip": "show noisy pixels",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5543,9 +5354,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5585,9 +5393,6 @@
           "check": "String",
           "type": "field_number",
           "value": "32"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5768,9 +5573,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5879,9 +5681,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -5920,9 +5719,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6001,9 +5797,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6023,9 +5816,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6108,9 +5898,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6251,9 +6038,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6280,9 +6064,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6302,9 +6083,6 @@
           "check": "String",
           "text": "\"stereo\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6363,9 +6141,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6408,9 +6183,6 @@
           "tooltip": "color parameter is in yuv instead of rgb",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6599,9 +6371,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.001"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6726,9 +6495,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6804,9 +6570,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -6900,9 +6663,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7059,9 +6819,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7098,9 +6855,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7257,9 +7011,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7364,9 +7115,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7502,9 +7250,6 @@
           "check": "String",
           "type": "field_number",
           "value": "2"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7574,9 +7319,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7643,9 +7385,6 @@
           "check": "String",
           "type": "field_number",
           "value": "20"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7691,9 +7430,6 @@
           "tooltip": "enable unsafe mode",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7806,9 +7542,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7895,9 +7628,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -7949,9 +7679,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8004,9 +7731,6 @@
           "tooltip": "do exact cropping",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8064,9 +7788,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8115,9 +7836,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8146,9 +7864,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8296,9 +8011,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8384,9 +8096,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.75"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8417,9 +8126,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8482,9 +8188,6 @@
           "check": "String",
           "type": "field_number",
           "value": "3"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8595,9 +8298,6 @@
           "tooltip": "set plane coupling",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8668,9 +8368,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8719,9 +8416,6 @@
           "check": "String",
           "type": "field_number",
           "value": "65535"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8842,9 +8536,6 @@
           "tooltip": "leave frames unchanged",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8905,9 +8596,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -8929,9 +8617,6 @@
           "check": "String",
           "type": "field_number",
           "value": "4"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -9004,9 +8689,6 @@
           "tooltip": "show delogo area",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -9156,9 +8838,6 @@
           "tooltip": "use OpenCL filtering capabilities",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -9253,9 +8932,6 @@
           "tooltip": "change alpha component",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -9314,9 +8990,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -9374,9 +9047,6 @@
           "check": "String",
           "type": "field_number",
           "value": "255"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -9406,9 +9076,6 @@
           "check": "String",
           "type": "field_number",
           "value": "smear"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -9451,9 +9118,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -9536,9 +9200,6 @@
           "check": "String",
           "text": "\"3\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -9705,9 +9366,6 @@
           "check": "String",
           "text": "\"900x256\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -9790,9 +9448,6 @@
           "check": "String",
           "text": "\"1\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10091,9 +9746,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10179,9 +9831,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10284,9 +9933,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-3.0103"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10339,9 +9985,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10414,9 +10057,6 @@
           "tooltip": "set the pal8 output",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10507,9 +10147,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10650,9 +10287,6 @@
           "check": "String",
           "text": "0xffffffffffffffff",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10710,9 +10344,6 @@
           "check": "String",
           "type": "field_number",
           "value": "255"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10765,9 +10396,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10796,9 +10424,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10911,9 +10536,6 @@
           "tooltip": "set color",
           "check": "String",
           "type": "field_colour"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -10996,9 +10618,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11050,9 +10669,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11256,9 +10872,6 @@
           "check": "String",
           "type": "field_number",
           "value": "80"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11293,9 +10906,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11343,9 +10953,6 @@
           "check": "String",
           "type": "field_number",
           "value": "3"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11534,9 +11141,6 @@
           "tooltip": "set minimum phase mode",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11637,9 +11241,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11704,9 +11305,6 @@
           "check": "String",
           "text": "\"kal\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11809,9 +11407,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11831,9 +11426,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11918,9 +11510,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -11971,9 +11560,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12040,9 +11626,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12064,9 +11647,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12091,9 +11671,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12125,9 +11702,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12173,9 +11747,6 @@
           "tooltip": "use B-frames' QP",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12224,9 +11795,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12337,9 +11905,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12370,9 +11935,6 @@
           "check": "String",
           "type": "field_number",
           "value": "16"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12515,9 +12077,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12599,9 +12158,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12660,9 +12216,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12738,9 +12291,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12800,9 +12350,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -12953,9 +12500,6 @@
           "check": "String",
           "text": "0xffffffffffffffff",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13012,9 +12556,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13195,9 +12736,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.5"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13246,9 +12784,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13270,9 +12805,6 @@
           "check": "String",
           "type": "field_number",
           "value": "3"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13300,9 +12832,6 @@
           "tooltip": "force termination when the shortest input terminates",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13343,9 +12872,6 @@
           "check": "String",
           "text": "\"0\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13403,9 +12929,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13437,9 +12960,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13474,9 +12994,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13534,9 +13051,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13789,9 +13303,6 @@
           "tooltip": "swap alpha fields",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13840,9 +13351,6 @@
           "check": "String",
           "type": "field_number",
           "value": "65535"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13903,9 +13411,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13936,9 +13441,6 @@
           "check": "String",
           "type": "field_number",
           "value": "2"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -13974,9 +13476,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14022,9 +13521,6 @@
           "tooltip": "set twoway",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14129,9 +13625,6 @@
           "check": "String",
           "text": "-0.000001",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14180,9 +13673,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14314,9 +13804,6 @@
           "tooltip": "set mold color",
           "check": "String",
           "type": "field_colour"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14356,9 +13843,6 @@
           "check": "String",
           "type": "field_number",
           "value": "15"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14398,9 +13882,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14578,9 +14059,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14721,9 +14199,6 @@
           "check": "String",
           "text": "0xffffffffffffffff",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14763,9 +14238,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14855,9 +14327,6 @@
           "check": "String",
           "text": "\"clipval\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14941,9 +14410,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -14989,9 +14455,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15081,9 +14544,6 @@
           "check": "String",
           "text": "\"clipval\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15173,9 +14633,6 @@
           "check": "String",
           "text": "\"clipval\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15366,9 +14823,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15416,9 +14870,6 @@
           "check": "String",
           "type": "field_number",
           "value": "15"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15448,9 +14899,6 @@
           "check": "String",
           "type": "field_number",
           "value": "15"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15524,9 +14972,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15555,9 +15000,6 @@
           "check": "String",
           "text": "yuva444p",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15638,9 +15080,6 @@
           "check": "String",
           "type": "field_number",
           "value": "7"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15753,9 +15192,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15781,9 +15217,6 @@
           "check": "String",
           "type": "field_number",
           "value": "15"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -15981,9 +15414,6 @@
           "check": "String",
           "type": "field_number",
           "value": "5"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -16064,9 +15494,6 @@
           "check": "String",
           "text": "0",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -16106,9 +15533,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.33"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -16167,9 +15591,6 @@
           "check": "String",
           "type": "field_number",
           "value": "all"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -16237,9 +15658,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -16474,9 +15892,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -16496,9 +15911,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -16886,9 +16298,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -16972,9 +16381,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17098,9 +16504,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17240,9 +16643,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17300,9 +16700,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17394,9 +16791,6 @@
           "check": "String",
           "text": "0\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17451,9 +16845,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17557,9 +16948,6 @@
           "tooltip": "take new palette for each output frame",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17578,9 +16966,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17636,9 +17021,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17760,9 +17142,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17825,9 +17204,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17913,9 +17289,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17935,9 +17308,6 @@
           "check": "String",
           "text": "\"de\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -17985,9 +17355,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18015,9 +17382,6 @@
           "tooltip": "enable inplace mode",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18057,9 +17421,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18109,9 +17470,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18190,9 +17548,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18273,9 +17628,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18295,9 +17647,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18328,9 +17677,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18439,9 +17785,6 @@
           "tooltip": "check and apply parity bit",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18481,9 +17824,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.6"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18503,9 +17843,6 @@
           "check": "String",
           "text": "2",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18564,9 +17901,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18593,9 +17927,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -18947,9 +18278,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -19023,9 +18351,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -19065,9 +18390,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -19129,9 +18451,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -19354,9 +18673,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -19477,9 +18793,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-0.9"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -19983,9 +19296,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -20495,9 +19805,6 @@
           "type": "field_dropdown"
         },
         {
-          "type": "input_dummy"
-        },
-        {
           "name": "InputVideo3",
           "type": "input_statement"
         }
@@ -20526,9 +19833,6 @@
           "check": "String",
           "text": "\"ih\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -20573,9 +19877,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -20680,9 +19981,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -20723,9 +20021,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -20778,9 +20073,6 @@
           "check": "String",
           "type": "field_number",
           "value": "100"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -20823,9 +20115,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -20845,9 +20134,6 @@
           "check": "String",
           "text": "\"PTS\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -20869,9 +20155,6 @@
           "check": "String",
           "type": "field_number",
           "value": "100"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -20898,9 +20181,6 @@
           "check": "String",
           "text": "\"intb\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -21211,9 +20491,6 @@
           "check": "String",
           "text": "\"1|0.5|0|0|0.5|1\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -21534,9 +20811,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1e-06"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -21568,9 +20842,6 @@
           "check": "String",
           "type": "field_number",
           "value": "30"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -21911,9 +21182,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -22200,9 +21468,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -22310,9 +21575,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -22435,9 +21697,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -22507,9 +21766,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -22529,9 +21785,6 @@
           "check": "String",
           "text": "\"0\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -22580,9 +21833,6 @@
           "check": "String",
           "type": "field_number",
           "value": "3"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -22724,9 +21974,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -22868,9 +22115,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -22914,9 +22158,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -22991,9 +22232,6 @@
           "tooltip": "set highlight color",
           "check": "String",
           "type": "field_colour"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -23115,9 +22353,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.5"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -23166,9 +22401,6 @@
           "check": "String",
           "type": "field_number",
           "value": "2"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -23266,9 +22498,6 @@
           "check": "String",
           "text": "\"1024\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -23389,9 +22618,6 @@
           "check": "String",
           "type": "field_number",
           "value": "-31"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -23455,9 +22681,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -23521,9 +22744,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -23563,9 +22783,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -23659,9 +22876,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -23817,9 +23031,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -23841,9 +23052,6 @@
           "check": "String",
           "type": "field_number",
           "value": "2"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -24010,9 +23218,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -24082,9 +23287,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -24313,9 +23515,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -24527,9 +23726,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -24578,9 +23774,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.8"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -24609,9 +23802,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -24683,9 +23873,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -24870,9 +24057,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -24978,9 +24162,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25035,9 +24216,6 @@
           "check": "String",
           "text": "\"0\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25185,9 +24363,6 @@
           "check": "String",
           "type": "field_number",
           "value": "1"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25237,9 +24412,6 @@
           "check": "String",
           "text": "\"23\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25321,9 +24493,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25387,9 +24556,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25423,9 +24589,6 @@
           "check": "String",
           "type": "field_number",
           "value": "15"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25447,9 +24610,6 @@
           "check": "String",
           "type": "field_number",
           "value": "100"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25502,9 +24662,6 @@
           "tooltip": "set the color of the unused area",
           "check": "String",
           "type": "field_colour"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25563,9 +24720,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25606,9 +24760,6 @@
           "check": "String",
           "text": "\"x\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25690,9 +24841,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25761,9 +24909,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25904,9 +25049,6 @@
           "check": "String",
           "text": "0xffffffffffffffff",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -25937,9 +25079,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.5"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -26030,9 +25169,6 @@
           "check": "String",
           "type": "field_number",
           "value": "I64_MAX"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -26060,9 +25196,6 @@
           "tooltip": "enable inplace mode",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -26189,9 +25322,6 @@
           "tooltip": "use OpenCL filtering capabilities",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -26228,9 +25358,6 @@
           "tooltip": "use B-frames' QP",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -26305,9 +25432,6 @@
           "check": "String",
           "type": "field_number",
           "value": "15"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -26716,9 +25840,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -26759,9 +25880,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.5"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -26862,9 +25980,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -26884,9 +25999,6 @@
           "check": "String",
           "text": "",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -27000,9 +26112,6 @@
           "checked": true,
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -27040,9 +26149,6 @@
           "tooltip": "force termination when the shortest input terminates",
           "check": "String",
           "type": "field_checkbox"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -27099,9 +26205,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -27568,9 +26671,6 @@
           "check": "String",
           "type": "field_number",
           "value": "0.75"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -27613,9 +26713,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -27637,9 +26734,6 @@
           "check": "String",
           "type": "field_number",
           "value": "3"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -27730,9 +26824,6 @@
           ],
           "check": "String",
           "type": "field_dropdown"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -27796,9 +26887,6 @@
           "check": "String",
           "text": "1\/1",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -27825,9 +26913,6 @@
           "check": "String",
           "text": "\"tcp:\/\/*:5555\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     },
@@ -27889,9 +26974,6 @@
           "check": "String",
           "text": "\"25\"",
           "type": "field_input"
-        },
-        {
-          "type": "input_dummy"
         }
       ]
     }

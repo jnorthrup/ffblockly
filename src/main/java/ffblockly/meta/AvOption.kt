@@ -6,7 +6,7 @@ import java.util.regex.Pattern
  * Created by jim on 9/12/2016.
  */
 interface AvOption {
-     val optionName: String?
+    val optionName: String?
     val type: String?
     val targets: List<AvTarget>?
     val description: String?
@@ -32,13 +32,6 @@ interface AvOption {
     }
 
     companion object {
-        val AV_OPT_PAT = Pattern.compile("^\\s+(?<" + AvOptionField.optionName +
-                ">[\\w+-]+)(\\s+\\<(?<" + AvOptionField.type +
-                ">\\w+)\\>)?\\s+(?<" + AvOptionField.targets +
-                ">[\\w.]{8})(\\s+(?<" + AvOptionField.description +
-                ">[^(]+)(\\s+\\(from\\s+(?<" + AvOptionField.range1 +
-                ">.*)\\s+to\\s+(?<" + AvOptionField.range2 +
-                ">[^)]+)\\))?(\\s+\\(default\\s+(?<" + AvOptionField.def +
-                ">[^)]+)\\))?)?$")
+        val AV_OPT_PAT = Pattern.compile("^\\s+(?<" + AvOptionField.optionName + ">[\\w+-]+)(\\s+\\<(?<" + AvOptionField.type + ">\\w+)\\>)?\\s+(?<" + AvOptionField.targets + ">[\\w.]{8})(\\s+(?<" + AvOptionField.description + ">[^(]+)(\\s+\\(from\\s+(?<" + AvOptionField.range1 + ">.*)\\s+to\\s+(?<" + AvOptionField.range2 + ">[^)]+)\\))?(\\s+\\(default\\s+(?<" + AvOptionField.def + ">[^)]+)\\))?)?$")
     }
 }

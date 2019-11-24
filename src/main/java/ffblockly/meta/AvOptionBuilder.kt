@@ -2,6 +2,7 @@ package ffblockly.meta
 
 import ffblockly.meta.AvOption.AvOptionField
 import ffblockly.meta.AvOption.AvTarget
+import ffblockly.meta.AvOption.AvTarget.*
 import java.util.*
 import java.util.regex.Matcher
 
@@ -22,40 +23,40 @@ class AvOptionBuilder {
             override val targets: List<AvTarget>? by lazy {
                 if (type == null) null
                 else {
-                    AvTarget.values().filter { '.' != optMatcher1!!.group(AvOptionField.targets.name)[it.ordinal] }
+                    values().filter { '.' != optMatcher1!!.group(AvOptionField.targets.name)[it.ordinal] }
                 }
             }
+            override val description: String? = optMatcher1!!.group(AvOptionField.description.name)
 
+            override val range1: String? = optMatcher1!!.group(AvOptionField.range1.name)
 
-            override val description: String? by lazy { optMatcher1!!.group(AvOptionField.description.name) }
+            override val range2: String? = optMatcher1!!.group(AvOptionField.range2.name)
 
-            override val range1: String? by lazy { optMatcher1!!.group(AvOptionField.range1.name) }
+            override val def: String? = optMatcher1!!.group(AvOptionField.def.name)
 
-            override val range2: String? by lazy { optMatcher1!!.group(AvOptionField.range2.name) }
+            override val encoding: Boolean? = type?.let { Encoding in targets!! }?.takeUnless { it == false }
 
-            override val def: String? by lazy { optMatcher1!!.group(AvOptionField.def.name) }
+            override val decoding: Boolean? =  type?.let { Decoding in targets!! }?.takeUnless { it == false }
 
-            override val encoding: Boolean? by lazy { if (null != type) if (targets!!.contains(AvTarget.Encoding)) true else null else null }
+            override val filtering: Boolean? =  type?.let { Filtering in targets!! }?.takeUnless { it == false }
 
-            override val decoding: Boolean? by lazy { if (null != type) if (targets!!.contains(AvTarget.Decoding)) true else null else null }
+            override val video: Boolean? =  type?.let { Video in targets!! }?.takeUnless { it == false }
 
-            override val filtering: Boolean? by lazy { if (null != type) if (targets!!.contains(AvTarget.Filtering)) true else null else null }
+            override val audio: Boolean? =  type?.let { Audio in targets!! }?.takeUnless { it == false }
 
-            override val video: Boolean? by lazy { if (null != type) if (targets!!.contains(AvTarget.Video)) true else null else null }
+            override val subtitle: Boolean? =  type?.let { Subtitle in targets!! }?.takeUnless { it == false }
 
-            override val audio: Boolean? by lazy { if (null != type) if (targets!!.contains(AvTarget.Audio)) true else null else null }
+            override val export: Boolean? =  type?.let { Export in targets!! }?.takeUnless { it == false }
 
-            override val subtitle: Boolean? by lazy { if (null != type) if (targets!!.contains(AvTarget.Subtitle)) true else null else null }
-
-            override val export: Boolean? by lazy { if (null != type) if (targets!!.contains(AvTarget.Export)) true else null else null }
-
-            override val readonly: Boolean? by lazy { if (null != type) if (targets!!.contains(AvTarget.Readonly)) true else null else null }
+            override val readonly: Boolean? =  type?.let { Readonly in targets!! }?.takeUnless { it == false }
             override val children: List<AvOption>?
                 get() = ch
 
-            protected var ch : List<AvOption>?= null
+            protected var ch: List<AvOption>? = null
 
-            override fun addChild(o: AvOption) { ch = ( this.ch ?: emptyList ()) + o }
+            override fun addChild(o: AvOption) {
+                ch = (this.ch ?: emptyList()) + o
+            }
         }).`as`()
     }
 }
