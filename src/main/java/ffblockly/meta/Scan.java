@@ -8,10 +8,7 @@ import ffblockly.meta.FilterListing.FilterSignature;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.stream.Collectors;
 
@@ -32,11 +29,13 @@ public class Scan {
         int i = start.waitFor();
         System.err.println("exit: " + i);
         List<String> strings = Files.readAllLines(ffOut);
-        AutoBean<FilterModel> model = Scan.MYFACTORY.model(() -> strings.stream().filter(FilterListing.FILTERS_LIST_FORMAT.asPredicate()).map(s -> {
-            Matcher matcher = FilterListing.FILTERS_LIST_FORMAT.matcher(s);
-            matcher.matches();
-            return createFilterListing(matcher);
-        }).collect(Collectors.toList()));
+        AutoBean<FilterModel> model = Scan.MYFACTORY.model(() -> {
+            return strings.stream().filter(FilterListing.FILTERS_LIST_FORMAT.asPredicate()).map(s -> {
+                Matcher matcher = FilterListing.FILTERS_LIST_FORMAT.matcher(s);
+                matcher.matches();
+                return createFilterListing(matcher);
+            }).collect(Collectors.toList());
+        });
 
         FilterModel filterModel1 = model.as();
         FFBlockly ffBlockly = Scan.MYFACTORY.blockly(new FFBlockly() {
@@ -45,7 +44,13 @@ public class Scan {
 
             @Override
             public Set<FFBlock> getModel() {
-                return this.filterModel.getFilters().stream().map(FFBlockBuilder::createFFBlock).collect(Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(FFBlock::getType))));
+                TreeSet<FFBlock> ffBlocks;
+                ffBlocks = new TreeSet<>(Comparator.comparing(ffBlock1 -> ffBlock1.getType()));
+                for (FilterListing filterListing : Objects.requireNonNull(this.filterModel.getFilters())) {
+                    FFBlock ffBlock = FFBlockBuilder.createFFBlock(filterListing);
+                    ffBlocks.add(ffBlock);
+                }
+                return ffBlocks;
             }
         }).as();
         System.out.println(AutoBeanCodex.encode(Scan.MYFACTORY.blockly(ffBlockly)).getPayload());
