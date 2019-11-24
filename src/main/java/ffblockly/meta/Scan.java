@@ -8,6 +8,7 @@ import ffblockly.meta.FilterListing.FilterSignature;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
@@ -44,7 +45,7 @@ public class Scan {
 
             @Override
             public Set<FFBlock> getModel() {
-                return this.filterModel.getFilters().stream().map(FFBlockBuilder::createFFBlock).collect(Collectors.toCollection(() -> new TreeSet<>((o1, o2) -> o1.getType().compareTo(o2.getType()))));
+                return this.filterModel.getFilters().stream().map(FFBlockBuilder::createFFBlock).collect(Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(FFBlock::getType))));
             }
         }).as();
         System.out.println(AutoBeanCodex.encode(Scan.MYFACTORY.blockly(ffBlockly)).getPayload());
@@ -69,7 +70,7 @@ public class Scan {
             System.out.println(avOption.getEncoding());
             System.out.println(avOption.getExport());
             System.out.println(avOption.getFiltering());
-            System.out.println(avOption.getName());
+            System.out.println(avOption.getOptionName());
             System.out.println(avOption.getRange1());
             System.out.println(avOption.getRange2());
             System.out.println(avOption.getReadonly());

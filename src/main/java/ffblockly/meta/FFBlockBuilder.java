@@ -37,7 +37,7 @@ public interface FFBlockBuilder {
 
             @Override
             public int getColour() {
-                final List<FilterListing.FilterSignature> inputSignature = filterListing.getInputSignature() ;
+                final List<FilterListing.FilterSignature> inputSignature = filterListing.getInputSignature();
                 return  inputSignature.isEmpty()?0:FFBlockly.colorForString(String.valueOf(inputSignature.iterator().next()));
             }
 

@@ -59,8 +59,8 @@ public interface FFBlocklyInputValueBuilder {
                 if (null == avOption.getChildren()) return null;
                 else {
                     List<List<String>> collect;
-                    collect = avOption.getChildren().stream().map(avOption1 -> asList(avOption1.getName() + "\t|\t" + (null == avOption1.getDescription() ? "tbd" :
-                            avOption1.getDescription()), avOption1.getName())).collect(Collectors.toList());
+                    collect = avOption.getChildren().stream().map(avOption1 -> asList(avOption1.getOptionName() + "\t|\t" + (null == avOption1.getDescription() ? "tbd" :
+                            avOption1.getDescription()), avOption1.getOptionName())).collect(Collectors.toList());
                     collect.add(0, asList("", ""));
                     return collect;
                 }
@@ -68,7 +68,7 @@ public interface FFBlocklyInputValueBuilder {
 
             @Override
             public String getName() {
-                return avOption.getName();
+                return avOption.getOptionName();
             }
 
             @Override
