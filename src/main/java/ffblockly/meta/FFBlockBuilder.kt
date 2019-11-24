@@ -1,17 +1,46 @@
 package ffblockly.meta
 
 import ffblockly.meta.FFBlockly.Companion.colorForString
-import ffblockly.meta.FFBlocklyInputValueBuilder.FFBFieldType
+import ffblockly.meta.FFBlocklyInputValueBuilder.*
 import ffblockly.meta.FilterListing.FilterSignature
 import java.text.MessageFormat
 import java.util.*
 import java.util.function.Function
-import java.util.stream.Collectors
 import java.util.stream.Collectors.*
 import java.util.stream.Stream
 
 interface FFBlockBuilder {
-    companion object {
+    companion object {   val inputDummy = object : FFBlocklyFieldValue {
+        override val value: String?
+            get() = null
+
+        override val type: FFBFieldType
+            get() = FFBFieldType.input_dummy
+
+        override val text: String?
+            get() = null
+
+        override val min: String?
+            get() = null
+
+        override val max: String?
+            get() = null
+
+        override val checked: Boolean?
+            get() = null
+
+        override val options: List<List<String>>?
+            get() = null
+
+        override val name: String?
+            get() = null
+
+        override val tooltip: String?
+            get() = null
+
+        override val check: String?
+            get() = null
+    }
         @JvmStatic
         fun createFFBlock(filterListing: FilterListing): FFBlock? {
             return Scan.MYFACTORY.block(object : FFBlock {
@@ -59,53 +88,30 @@ interface FFBlockBuilder {
                         return msg0.toString()
                     }
 
+                private val autoBean = Scan.MYFACTORY.fil(inputDummy)
+
                 override val args0: List<FFBlocklyFieldValue>?
                     get() {
                         val c = intArrayOf(1)
                         val filterSignatureFFBlocklyFieldValueFunction = Function { filterSignature: FilterSignature -> getFfBlocklyFieldValue( c, filterSignature) }
-                        val stream1: Stream<FFBlocklyFieldValue> = filterListing.inputSignature!!.stream().skip(1).map( filterSignatureFFBlocklyFieldValueFunction)
+                        val inputSignature = filterListing.inputSignature
+                        val stream1 = inputSignature!! .drop(1)?.map  {filterSignature ->  filterSignatureFFBlocklyFieldValueFunction.apply(filterSignature  ) }
                         if (!loaded) {
                             loaded = true
                             options = filterListing.options
                         }
                          c[0] = 1
 
-                         var ret: List<FFBlocklyFieldValue> = emptyList()
-                        options?.stream()?.map { avOption: AvOption -> FFBlocklyInputValueBuilder.createFFBlocklyInputValue(avOption) }?.use { ffBlocklyFieldValueStream ->
-                            ret = Stream.concat( stream1, Stream.concat(Stream.concat(ffBlocklyFieldValueStream, Stream.of(Scan.MYFACTORY.fil(object : FFBlocklyFieldValue {
-                                override val value: String?
-                                    get() = null
+                      return   options?.  map(FFBlocklyInputValueBuilder.Companion::createFFBlocklyInputValue)?.let { ffBlocklyFieldValueStream ->
 
-                                override val type: FFBFieldType
-                                    get() = FFBFieldType.input_dummy
-
-                                override val text: String?
-                                    get() = null
-
-                                override val min: String?
-                                    get() = null
-
-                                override val max: String?
-                                    get() = null
-
-                                override val checked: Boolean?
-                                    get() = null
-
-                                override val options: List<List<String>>?
-                                    get() = null
-
-                                override val name: String?
-                                    get() = null
-
-                                override val tooltip: String?
-                                    get() = null
-
-                                override val check: String?
-                                    get() = null
-                            }).`as`())), filterListing.returnSignature!!.stream().skip(1).map( filterSignatureFFBlocklyFieldValueFunction))).collect(toList()) as List<FFBlocklyFieldValue>
+                            val fil = autoBean
+                            val of = fil.`as`()
+                            val concat1 = ffBlocklyFieldValueStream + of
+                            val stream = filterListing.returnSignature!!
+                            val map = stream.drop(1).map( filterSignatureFFBlocklyFieldValueFunction::apply)
+                            val concat =  (concat1+ map)
+                          (stream1 + concat).filterNotNull()
                         }
-                                ?: ArrayList<FFBlocklyFieldValue>().stream()
-                        return if ( ret.isEmpty()) null else  ret
                     }
             }).`as`()
         }

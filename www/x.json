@@ -318,7 +318,7 @@
       "type": "acrossfade",
       "args0": [
         {
-          "name": "InputAudio2",
+          "name": "InputAudio1",
           "type": "input_statement"
         },
         {
@@ -1691,7 +1691,7 @@
       "type": "afir",
       "args0": [
         {
-          "name": "InputAudio2",
+          "name": "InputAudio1",
           "type": "input_statement"
         },
         {
@@ -5602,7 +5602,7 @@
       "type": "blend",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -7823,7 +7823,7 @@
       "type": "convolve",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -9391,11 +9391,11 @@
       "type": "displace",
       "args0": [
         {
-          "name": "InputVideo3",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
-          "name": "InputVideo4",
+          "name": "InputVideo2",
           "type": "input_statement"
         },
         {
@@ -11935,7 +11935,7 @@
       "type": "framepack",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -12532,7 +12532,7 @@
       "type": "haldclut",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -13454,7 +13454,7 @@
       "type": "hysteresis",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -14872,7 +14872,7 @@
       "type": "lut2",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -15383,11 +15383,11 @@
       "type": "maskedclamp",
       "args0": [
         {
-          "name": "InputVideo3",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
-          "name": "InputVideo4",
+          "name": "InputVideo2",
           "type": "input_statement"
         },
         {
@@ -15433,11 +15433,11 @@
       "type": "maskedmerge",
       "args0": [
         {
-          "name": "InputVideo3",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
-          "name": "InputVideo4",
+          "name": "InputVideo2",
           "type": "input_statement"
         },
         {
@@ -15770,7 +15770,7 @@
       "type": "midequalizer",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -17115,7 +17115,7 @@
       "type": "overlay",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -17468,7 +17468,7 @@
       "type": "paletteuse",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -18126,7 +18126,7 @@
       "type": "psnr",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -20000,7 +20000,7 @@
       "type": "scale2ref",
       "args0": [
         {
-          "name": "InputVideo3",
+          "name": "InputVideo2",
           "type": "input_statement"
         },
         {
@@ -20498,7 +20498,7 @@
           "type": "input_dummy"
         },
         {
-          "name": "InputVideo4",
+          "name": "InputVideo3",
           "type": "input_statement"
         }
       ]
@@ -22597,7 +22597,7 @@
       "type": "sidechaincompress",
       "args0": [
         {
-          "name": "InputAudio2",
+          "name": "InputAudio1",
           "type": "input_statement"
         },
         {
@@ -22741,7 +22741,7 @@
       "type": "sidechaingate",
       "args0": [
         {
-          "name": "InputAudio2",
+          "name": "InputAudio1",
           "type": "input_statement"
         },
         {
@@ -23676,7 +23676,7 @@
       "type": "spectrumsynth",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -24027,7 +24027,7 @@
       "type": "ssim",
       "args0": [
         {
-          "name": "InputVideo2",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
@@ -25404,15 +25404,15 @@
       "type": "threshold",
       "args0": [
         {
-          "name": "InputVideo4",
+          "name": "InputVideo1",
           "type": "input_statement"
         },
         {
-          "name": "InputVideo5",
+          "name": "InputVideo2",
           "type": "input_statement"
         },
         {
-          "name": "InputVideo6",
+          "name": "InputVideo3",
           "type": "input_statement"
         },
         {
