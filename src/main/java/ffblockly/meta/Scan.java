@@ -13,7 +13,6 @@ import java.util.regex.Matcher;
 import java.util.stream.Collectors;
 
 import static ffblockly.meta.FilterListingBuilder.createFilterListing;
-
 public class Scan {
 
     public static final FFFactory MYFACTORY = AutoBeanFactorySource.create(FFFactory.class);
@@ -22,20 +21,18 @@ public class Scan {
         int c = 0;
         Path ffOut = Files.createTempFile("ffscanXXXX", ".out");
         Path ffErr = Files.createTempFile("ffscanXXXX", ".err");
-        Process start = new ProcessBuilder().command("ffmpeg", "-filters").redirectError(ffErr.toFile()).redirectOutput(ffOut.toFile()).start();
+        Process start = new ProcessBuilder().command("/home/jim/bin/ffmpeg", "-filters").redirectError(ffErr.toFile()).redirectOutput(ffOut.toFile()).start();
 
         ffOut.toFile().deleteOnExit();
         ffErr.toFile().deleteOnExit();
         int i = start.waitFor();
         System.err.println("exit: " + i);
         List<String> strings = Files.readAllLines(ffOut);
-        AutoBean<FilterModel> model = Scan.MYFACTORY.model(() -> {
-            return strings.stream().filter(FilterListing.FILTERS_LIST_FORMAT.asPredicate()).map(s -> {
-                Matcher matcher = FilterListing.FILTERS_LIST_FORMAT.matcher(s);
-                matcher.matches();
-                return createFilterListing(matcher);
-            }).collect(Collectors.toList());
-        });
+        AutoBean<FilterModel> model = Scan.MYFACTORY.model(() -> strings.stream().filter(FilterListing.FILTERS_LIST_FORMAT.asPredicate()).map(s -> {
+            Matcher matcher = FilterListing.FILTERS_LIST_FORMAT.matcher(s);
+            matcher.matches();
+            return createFilterListing(matcher);
+        }).collect(Collectors.toList()));
 
         FilterModel filterModel1 = model.as();
         FFBlockly ffBlockly = Scan.MYFACTORY.blockly(new FFBlockly() {
