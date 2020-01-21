@@ -3,14 +3,12 @@ package ffblockly.meta
 import ffblockly.meta.AvOption.AvOptionField
 import ffblockly.meta.AvOption.AvTarget
 import ffblockly.meta.AvOption.AvTarget.*
-import java.util.*
 import java.util.regex.Matcher
 
 class AvOptionBuilder {
     private var optMatcher: Matcher? = null
-    fun setOptMatcher(optMatcher: Matcher?): AvOptionBuilder {
+    fun setOptMatcher(optMatcher: Matcher?)=apply {
         this.optMatcher = optMatcher
-        return this
     }
 
     fun createAvOptionImpl(): AvOption {
@@ -49,6 +47,11 @@ class AvOptionBuilder {
             override val export: Boolean? =  type?.let { Export in targets!! }?.takeUnless { it == false }
 
             override val readonly: Boolean? =  type?.let { Readonly in targets!! }?.takeUnless { it == false }
+             override val reserved1 : Boolean? =  type?.let { Reserved1 in targets!! }?.takeUnless { it == false }
+            override val reserved2 : Boolean? =  type?.let { Reserved2 in targets!! }?.takeUnless { it == false }
+
+
+
             override val children: List<AvOption>?
                 get() = ch
 

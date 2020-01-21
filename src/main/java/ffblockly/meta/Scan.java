@@ -21,7 +21,7 @@ public class Scan {
         int c = 0;
         Path ffOut = Files.createTempFile("ffscanXXXX", ".out");
         Path ffErr = Files.createTempFile("ffscanXXXX", ".err");
-        Process start = new ProcessBuilder().command("/home/jim/bin/ffmpeg", "-filters").redirectError(ffErr.toFile()).redirectOutput(ffOut.toFile()).start();
+        Process start = new ProcessBuilder().command("ffmpeg", "-filters").redirectError(ffErr.toFile()).redirectOutput(ffOut.toFile()).start();
 
         ffOut.toFile().deleteOnExit();
         ffErr.toFile().deleteOnExit();
@@ -36,7 +36,6 @@ public class Scan {
 
         FilterModel filterModel1 = model.as();
         FFBlockly ffBlockly = Scan.MYFACTORY.blockly(new FFBlockly() {
-
             public FilterModel filterModel = filterModel1;
 
             @Override
@@ -77,6 +76,8 @@ public class Scan {
             System.out.println(avOption.getRange2());
             System.out.println(avOption.getReadonly());
             System.out.println(avOption.getSubtitle());
+            System.out.println(avOption.getReserved1());
+            System.out.println(avOption.getReserved2());
         }
     }
 

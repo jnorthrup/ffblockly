@@ -22,16 +22,18 @@ interface AvOption {
     val subtitle: Boolean?
     val export: Boolean?
     val readonly: Boolean?
+    val reserved1: Boolean?
+    val reserved2: Boolean?
     fun addChild(o: AvOption)
     enum class AvTarget {
-        Encoding, Decoding, Filtering, Video, Audio, Subtitle, Export, Readonly
+        Encoding, Decoding, Filtering, Video, Audio, Subtitle, Export, Readonly,Reserved1,Reserved2
     }
 
     enum class AvOptionField {
         optionName, type, targets, description, range1, range2, def
     }
-
     companion object {
-        val AV_OPT_PAT = Pattern.compile("^\\s+(?<" + AvOptionField.optionName + ">[\\w+-]+)(\\s+\\<(?<" + AvOptionField.type + ">\\w+)\\>)?\\s+(?<" + AvOptionField.targets + ">[\\w.]{8})(\\s+(?<" + AvOptionField.description + ">[^(]+)(\\s+\\(from\\s+(?<" + AvOptionField.range1 + ">.*)\\s+to\\s+(?<" + AvOptionField.range2 + ">[^)]+)\\))?(\\s+\\(default\\s+(?<" + AvOptionField.def + ">[^)]+)\\))?)?$")
+        val AV_OPT_PAT = Pattern.compile("^\\s+(?<" + AvOptionField.optionName + ">[\\w+-]+)(\\s+\\<(?<" + AvOptionField.type + ">\\w+)\\>)?\\s+(?<" + AvOptionField.targets + ">[\\w.]{10})(\\s+(?<" + AvOptionField.description + ">[^(]+)(\\s+\\(from\\s+(?<" + AvOptionField.range1 + ">.*)\\s+to\\s+(?<" + AvOptionField.range2 + ">[^)]+)\\))?(\\s+\\(default\\s+(?<" + AvOptionField.def + ">[^)]+)\\))?)?$")
     }
+
 }

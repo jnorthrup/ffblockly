@@ -5,7 +5,6 @@ import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
 import java.io.StringReader
-import java.util.*
 import java.util.regex.Matcher
 
 interface FilterListingBuilder {
@@ -64,15 +63,10 @@ interface FilterListingBuilder {
                                         val optMatcher = AvOption.AV_OPT_PAT.matcher(buf)
                                         if (optMatcher.matches()) {
                                             val avOption = AvOptionBuilder().setOptMatcher(optMatcher).createAvOptionImpl()
-                                            val type = avOption.type
-                                            if (type != null && !type.isEmpty()) {
+                                            avOption.type.takeUnless { it.isNullOrEmpty() }?.let{
                                                 prev = avOption
-                                                opts = (opts ?: emptyList()) + (avOption)
-                                            } else {
-                                                if (prev == null) prev = avOption else {
-                                                    prev.addChild(avOption)
-                                                }
-                                            }
+                                                opts = (opts ?: emptyList()) + avOption
+                                            }?:   prev?.addChild(avOption)?:  avOption.also { prev=it }
                                         }
                                     }
                                 }
