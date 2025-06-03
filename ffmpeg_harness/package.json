@@ -1,0 +1,23 @@
+{
+  "name": "ffmpeg_harness",
+  "version": "1.0.0",
+  "description": "A harness to manage and run ffmpeg filtergraph experiments.",
+  "main": "index.js",
+  "bin": {
+    "ffmpeg-harness": "./ffmpeg-harness-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ffmpeg",
+    "filtergraph",
+    "video",
+    "experiment"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^18.0.0"
+  }
+}
